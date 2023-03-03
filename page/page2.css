@@ -1,0 +1,26 @@
+section{
+  top: 200px;
+  position: relative;
+}
+table {
+    font-family: arial, sans-serif;
+    border-style:dotted  !important;
+    border: 2px solid rgb(179, 179, 179);
+    margin: 0 auto;
+
+}
+  
+  td, th {
+
+    padding: 20px;
+    border-style: dotted !important;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    border-style: dotted !important;
+
+    border: 2px solid rgb(179, 179, 179);
+
+  }

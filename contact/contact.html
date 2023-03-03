@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="../main.css">
+
+  <link href="../custom.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../navbar.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/132f54ee8c.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<style>
+  section {
+    position: relative;
+    top: 100px;
+    min-height: 80vh;
+    height: 100%;
+  }
+
+  li {
+    list-style: none;
+    line-height: 2;
+  }
+
+  .col-md-6>li>a {
+    font-size: 25px;
+
+  }
+
+  i {
+    padding: 0 20px 0 0;
+    font-size: 25px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  @media only screen and (max-width:990px){
+    .position-relative {
+      padding: 0;
+      position: relative!important;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      gap: 80px;
+}
+.p-5{
+      padding: 10px !important;
+    }
+  }
+  @media only screen and (max-width:380px){
+    .p-5{
+      padding: 50px 10px !important;
+    }
+    .col-md-6>li>a {
+    font-size: 16px;
+}
+  }
+ 
+</style>
+
+<body>
+  <nav>
+    <div class="top-nav container-fluid22">
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+      <div class="navbar-header22">
+        <a class="navbar-brand22" href="../index.html">Asim Tağıyev</a>
+      </div>
+      <ul class=" menu">
+        <li><a href="../index.html">About</a></li>
+        <li><a href="../page/page2.html">Portfolio</a></li>
+        <li><a href="../contact/contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <section>
+    <h1 class="d-flex justify-content-center display-3">Kontakt</h1>
+    <br><br>
+    <div class="container">
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="../img/send.svg" class="w-100 p-5" alt="">
+        </div>
+        <div class="col-md-6 p-5">
+          <h2 class="mt-0"> Mail ilə əlaqə üçün </h2>
+          <li><a class="link-success" href="mailto:atagiev925@gmail.com">atagiev925@gmail.com</a></li>
+          <br>
+          <li><a class="link-success" href="mailto:asimtaghiyev@icloud.com">asimtaghiyev@icloud.com</a></li>
+          <br><br><br>
+          <h2 class="mt-0"> Nömrə ilə əlaqə </h2>
+          <li><i class="fa-solid fa-phone"></i><a href="tel:+994508051813"> +994508051813</a></li>
+          <br><br><br>
+          <h2 class="mt-0"> Whatsaap ilə əlaqə </h2>
+          <li><i class="fa-brands fa-whatsapp"></i><a
+              href="https://api.whatsapp.com/send/?phone=994556519390&text&type=phone_number&app_absent=0">
+              +994556519390</a></li>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
